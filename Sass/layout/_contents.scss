@@ -1,0 +1,159 @@
+.l-contents {
+  max-width: 1000px;
+  margin: 0 auto;
+  &_main {
+    &_title {
+      margin: 60px 0 15px 0;
+      @include tab {
+        margin: 60px 0 15px 10px;
+      }
+      background-repeat: no-repeat; /* 画像の繰り返しを指定  */
+      width: 160px; /* 横幅のサイズを指定    */
+      img {
+        max-width: 100%;
+      }
+    }
+    &_picture {
+      max-width: 1000px;
+      max-height: 400px;
+      img {
+        width: 100%;
+      }
+    }
+
+    &_INDEX {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 0 50px 0;
+      background-color: #f5f5f5;
+      h2 {
+        padding: 60px 0 30px 0;
+        margin: 0 auto;
+        @include tab {
+          margin: 0 40px;
+        }
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333333;
+        width: 55px;
+      }
+      ul {
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: Regular;
+        margin: 5px auto;
+        padding: 20px;
+        width: 85%;
+        border: solid 1px #333333;
+        @include tab {
+          padding: 0 40px;
+        }
+      }
+      li {
+        padding: 10px 0 10px 0;
+        text-align: center;
+      }
+    }
+    &_pictures {
+      margin: 0 auto;
+      max-width: 800px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      &_1,
+      &_2,
+      &_3,
+      &_4 {
+        width: 49%;
+        height: 50%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    &_DETAIL {
+      max-width: 800px;
+      padding: 30px 0;
+      margin: 30px auto;
+      background-color: #f5f5f5;
+      &_title {
+        text-align: center;
+        margin: 0px auto;
+        padding: 30px 0;
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: Bold;
+        @include tab {
+          padding: 0 40px;
+        }
+      }
+      &_picture img {
+        width: 100%;
+        margin-right: 60px;
+        @include tab {
+          margin: 0 auto;
+        }
+      }
+      &_article {
+        display: flex;
+        margin-left: 60px;
+        @include tab {
+          margin: 0px;
+        }
+        &_DATE {
+          padding: 16px 0;
+          border-bottom: solid 1px #dedede;
+          font-family: Arial;
+          font-size: 14px;
+          font-weight: Regular;
+          width: 35%;
+        }
+        &_sentence {
+          width: 65%;
+          @include tab {
+            width: 100%;
+          }
+          color: #333333;
+          font-size: 14px;
+        }
+
+        &_title {
+          width: 100%;
+          font-family: Arial;
+          font-size: 18px;
+          font-weight: bold;
+          padding-bottom: 20px;
+          border-bottom: solid 1px #dedede;
+        }
+
+        p {
+          line-height: 15px;
+          color: #333333;
+        }
+        dl {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        dt {
+          width: 25%;
+        }
+        dd {
+          width: 75%;
+        }
+      }
+
+      &_Link {
+        width: 153px;
+        border-bottom: solid 1px #333333;
+        p {
+          color: #333333;
+          font-size: 14px;
+          font-family: arial;
+          font-weight: regular;
+        }
+      }
+    }
+  }
+}
