@@ -277,7 +277,7 @@ body {
 }
 
 .l-contents_main_pictures_1, .l-contents_main_pictures_2, .l-contents_main_pictures_3, .l-contents_main_pictures_4 {
-  width: 49%;
+  width: 48.5%;
   height: 50%;
   margin: 15px 0 0 0;
 }
@@ -384,7 +384,7 @@ body {
 }
 
 .l-contents_main_DETAIL_article_sentence {
-  padding: 20px 0 0 0;
+  padding: 0px 0 0 0;
 }
 
 .l-contents_main_DETAIL_article_sentence1, .l-contents_main_DETAIL_article_sentence2 {
