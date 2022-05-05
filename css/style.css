@@ -387,6 +387,12 @@ body {
   padding: 0px 0 0 0;
 }
 
+@media (max-width: 1024px) {
+  .l-contents_main_DETAIL_article_sentence {
+    padding: 20px 0 0 0;
+  }
+}
+
 .l-contents_main_DETAIL_article_sentence1, .l-contents_main_DETAIL_article_sentence2 {
   padding: 0px 60px 20px 0;
   color: #333333;

@@ -151,6 +151,9 @@
         }
         &_sentence {
           padding: 0px 0 0 0;
+          @include tab {
+            padding: 20px 0 0 0;
+          }
           &1,
           &2 {
             padding: 0px 60px 20px 0;
